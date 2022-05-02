@@ -16,18 +16,13 @@ function draw() {
   r = mouseY;
   
 
-background(0);
+  background(0);
   
- image(img,-400,-600,);
-
-  
-
+  image(img,-400,-600,);
   
   noFill();
   stroke(255);
   rotateY(frameCount * 0.01);
-  //
- // rotateZ(frameCount * r/10000);
   sphere(r/5+20);
 
   stroke(255);
@@ -35,47 +30,4 @@ background(0);
 
   stroke(255);
   ellipsoid(r/3, 150, 100);
-
-  stroke(255);
-  //ellipsoid(height/2-r/2, 150, 500);
-
-//image(img,-400,-600,);
-
- /* if(r < height){
-    pointC();
-  }else if(r == height ){
-    pointB();
-  }
-  */
-}
-
-
-function pointC() {
-
-  /*
-  for(let i = 0; i <height; i ++)
-  {
-
-  }
-
-  */
-
-  r += 5;
-
-
-}
-
-function pointB() {
-
-  /*
-  for(let i = 0; i <height; i ++)
-  {
-
-  }
-
-  */
-
-  r -= height;
-
-
 }
