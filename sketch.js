@@ -18,7 +18,7 @@ function draw() {
 
 background(0);
   
-  image(img,-400,-600,);
+ image(img,-400,-600,);
 
   
 
@@ -38,6 +38,8 @@ background(0);
 
   stroke(255);
   //ellipsoid(height/2-r/2, 150, 500);
+
+image(img,-400,-600,);
 
  /* if(r < height){
     pointC();
