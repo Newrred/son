@@ -8,7 +8,7 @@
 }
 
 #jb{
-  height: 200px;
+  
 }
 
 #sb {
@@ -28,4 +28,5 @@ canvas {
   position: absolute;
   display: flex;
   left: 850px;
+  height: 200px;
 }
