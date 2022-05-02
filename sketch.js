@@ -3,7 +3,11 @@ let r = 0;
 function setup() {
   createCanvas(800, 1200, WEBGL);
 
-  colorMode(HSB, 360, 100, 100, 100);
+  
+  
+  background(0);
+  
+  image(img,-400,-600,);
 }
 
 function preload() {            // 사진 불러오기 함수
@@ -12,13 +16,13 @@ function preload() {            // 사진 불러오기 함수
 
 function draw() {
   r = mouseY;
-  background(0);
+  
 
-  image(img,-400,-600,);
+  
 
   
   noFill();
-  stroke(0,0,255);
+  stroke(255);
   rotateY(frameCount * 0.01);
   //
  // rotateZ(frameCount * r/10000);
@@ -27,10 +31,10 @@ function draw() {
   stroke(255);
   cone(height/2- r/2, 20);
 
-  stroke(255,0,0);
+  stroke(255);
   ellipsoid(r/3, 150, 100);
 
-  stroke(0,255,0);
+  stroke(255);
   //ellipsoid(height/2-r/2, 150, 500);
 
  /* if(r < height){
