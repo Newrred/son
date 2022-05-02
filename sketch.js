@@ -18,7 +18,7 @@ function draw() {
 
 background(0);
   
- image(img,-400,-600,);
+ //image(img,-400,-600,);
 
   
 
