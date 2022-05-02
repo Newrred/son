@@ -5,9 +5,7 @@ function setup() {
 
   
   
-  background(0);
-  
-  image(img,-400,-600,);
+ 
 }
 
 function preload() {            // 사진 불러오기 함수
@@ -17,6 +15,10 @@ function preload() {            // 사진 불러오기 함수
 function draw() {
   r = mouseY;
   
+
+background(0);
+  
+  image(img,-400,-600,);
 
   
 
